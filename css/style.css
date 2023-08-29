@@ -1,0 +1,243 @@
+/* generales */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #FFECB2; 
+    overflow-x: hidden;
+  }
+
+main {
+    margin: 20px;
+    padding: 10px;
+  }
+
+img {
+    display: block;
+    max-width: 100%;
+  }
+
+/* menu */
+ul {
+    list-style-type: none
+  }
+
+
+/* index */
+
+#home-main {
+  box-shadow: 0 4px 8px 0 #667AD9;
+}
+
+section#home-api-chuck {
+  width: 80%;
+  margin: 30px;
+  padding: 10px;
+}
+
+.chuck-title {
+  color: #D9BC66;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 20px 20px 0 20px;
+  padding: 10px 0 0 10px;
+}
+
+.api-chuck {
+  color: #FFE291;
+  margin: 5px 5px 0 30px;
+  padding: 10px;
+}
+
+/* nav menu */
+
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.menu img {
+  align-self: flex-start;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #D9BC66;
+}
+
+/* Productos */
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #26388C;
+  color: #D9BC66;
+}
+
+.swal2-timer-progress-bar {
+  height: 2rem !important;
+}
+
+.btn-comprar {
+  background-color: #263D8C;
+  color: #FFE291;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#cantidad {
+  background-color: #0d6ed6;
+  color: rgb(230, 230, 59);
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 #667AD9;
+  text-align: center;
+  width: 370px;
+  height: auto;
+  background-color: #667AD9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.card p {
+  margin: 10px;
+  font-size: large;
+  color: #D9BC66;
+  font-weight: 500;
+}
+
+.card img {
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+
+.card button:hover {
+  opacity: 0.8;
+}
+
+.modal-carrito {
+  padding-right: 20px;
+}
+
+.modal-box {
+  margin: 20px;
+  color: rgb(207, 207, 49);
+  background-color: rgba(40, 40, 197, 0.995);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: auto;
+  z-index: 5;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-header-title {
+  justify-self: start;
+  padding: 10px;
+}
+
+.modal-cancel {
+  cursor: pointer;
+  display: flex;
+  padding: 10px;
+  align-self: flex-end;
+  position: absolute;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.modal-content h3 {
+  display: flex;
+}
+
+.btn-confirmar-compra {
+  background-color: #0d6ed6;
+  color: rgb(230, 230, 59);
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.delete-product {
+  cursor: pointer;
+}
+
+.btn-incrementar {
+  width: 20px;
+  cursor: pointer;
+}
+
+.btn-decrementar {
+  width: 20px;
+  cursor: pointer;
+}
+
+.info-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-cart-cantidad {
+    justify-content: space-evenly;
+    display: flex;
+    gap: 20px;
+}
+
+/* Contact */
+
+#contacto {
+  margin: 50px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 10px;
+  padding-top: 20px;
+  gap: 15px;
+}
